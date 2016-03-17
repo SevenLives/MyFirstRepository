@@ -36,10 +36,10 @@
  *
  *  @param attributes 初始化相关设置
  *
- *  @return 弹幕实例化
- */
-- (instancetype)initWithAttributes:(NSDictionary *)attributes; 
-- 用字典设置弹幕属性;
+ *  @return 弹幕实例化;
+ */;
+--(instancetype)initWithAttributes:(NSDictionary *)attributes; 
+--用字典设置弹幕属性;
 --//弹幕内容;
 --@property (nonatomic, copy) NSString* danMuText;
 --//弹幕字体大小;
