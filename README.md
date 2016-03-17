@@ -38,15 +38,15 @@
  *
  *  @return 弹幕实例化;
  
---(instancetype)initWithAttributes:(NSDictionary *)attributes; 
---用字典设置弹幕属性;
---//弹幕内容;
---@property (nonatomic, copy) NSString* danMuText;
---//弹幕字体大小;
---@property (nonatomic, copy) NSString* danMuTextFont;
---//弹幕字体颜色;
---@property (nonatomic, copy) NSString* danMuTextColor;
---//弹幕发射速度;
+(instancetype)initWithAttributes:(NSDictionary *)attributes; 
+用字典设置弹幕属性;
+//弹幕内容;
+@property (nonatomic, copy) NSString* danMuText;
+//弹幕字体大小;
+@property (nonatomic, copy) NSString* danMuTextFont;
+//弹幕字体颜色;
+@property (nonatomic, copy) NSString* danMuTextColor;
+//弹幕发射速度;
 @property (nonatomic, copy) NSString* danMuSpeed;
 //弹幕类型 0：从左到右滚动 1：顶部  2：底部
 @property (nonatomic, copy) NSString* danMuType;
