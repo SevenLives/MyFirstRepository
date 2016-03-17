@@ -31,13 +31,13 @@
  *  @param model 弹幕模型
  */
 - (void)sendDanMu:(SZJDanMuModel *)model;
-/**
+
  *  弹幕模型初始化
  *
  *  @param attributes 初始化相关设置
  *
  *  @return 弹幕实例化;
- */;
+ 
 --(instancetype)initWithAttributes:(NSDictionary *)attributes; 
 --用字典设置弹幕属性;
 --//弹幕内容;
